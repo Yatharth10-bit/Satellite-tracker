@@ -1,6 +1,14 @@
-# OrbytMax
+# ORBITAL satellite tracker
 
-OrbytMax is a Next.js 16 satellite tracker and education app. It includes a live satellite map, city-based visible pass lookup, satellite and mission detail pages, ISRO/global mission libraries, a satellite parts guide, and an interactive orbit basics quiz.
+Follow a satellite around a Three.js globe. Filter the catalog by category and compare orbital paths. The original viewer lives in `legacy/legacy`. The repository root contains the later Next.js app.
+
+![Original ORBITAL project cover](docs/portfolio-preview.webp)
+
+[Read the portfolio case study](https://yatharth10-bit.github.io/Yatharth-Portfolio/orbital.html)
+
+### Run the original globe
+
+With Node.js 18 or later, run `npm start --prefix legacy/legacy` from the repository root. Open `http://localhost:3000`. Live feeds require network access. The instructions below describe the Next.js app.
 
 ## Local Setup
 
